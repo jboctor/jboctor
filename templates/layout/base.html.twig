@@ -3,6 +3,12 @@
 		<title>
 			{{ title|default('Welcome!') }}
 		</title>
+	{% block stylesheets %}
+    	<link rel="stylesheet" type="text/css" href="/build/css/stylesheet.css" /> 
+	{% endblock %}
+	{% block scripts %}
+    	<script src="/build/js/script.js"></script>
+	{% endblock %}
 	</head>
 	<body>
 		{{ include('/layout/header.html.twig') }}
