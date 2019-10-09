@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title>
+			{{ title|default('Welcome!') }}
+		</title>
+	</head>
+	<body>
+		{{ include('/layout/header.html.twig') }}
+		{{ content }}
+		{{ include('/layout/footer.html.twig') }}
+	</body>
+</html>
