@@ -1,5 +1,5 @@
 jboctor_home:
   path: /{home}
-  controller: App\Controller\HomeController::home
+  controller: App\Controller\Home\HomeController::home
   requirements:
       home: (?:home)?
