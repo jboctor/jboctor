@@ -5,11 +5,13 @@ var concat = require('gulp-concat');
  
 var scripts = [
 	'vendor/components/jquery/jquery.js',
-	'vendor/twbs/bootstrap/dist/js/bootstrap.js'
+	'vendor/twbs/bootstrap/dist/js/bootstrap.js',
+	'static/js/*.js'
 ];
 
 var styles = [
-	'vendor/twbs/bootstrap/dist/css/bootstrap.css'
+	'vendor/twbs/bootstrap/dist/css/bootstrap.css',
+	'static/css/*.css'
 ];
 
 gulp.task('pack-js', function () {    
