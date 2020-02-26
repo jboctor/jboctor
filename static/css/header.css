@@ -1,5 +1,16 @@
 #header-image {
-    width: 200px;
+    width: auto;
+    height: 100%;
+    padding-bottom: 5px;
+}
+
+.navbar-toggler {
+    width: auto;
+    max-height: 100%;
+    padding-bottom: 5px;
+    color: rgb(255, 242, 46) !important;
+    border-color: rgb(255, 242, 46) !important;
+    background-size: 100% !important;
 }
 
 .nav-link {
